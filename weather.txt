@@ -1,0 +1,10 @@
+......open the file......
+
+//(.......\rhombic_technologies\weather.py)//
+
+
+
+'''CLI commands:
+---open a new terminal and run the command---
+cd <directory name>
+python run <filename>'''
