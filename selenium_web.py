@@ -7,7 +7,7 @@ class Infos:
     def __init__(self):
 #initiate the driver
       self.query = None
-      self.driver = webdriver.Chrome()
+      self.driver = webdriver.Chrome() #full_path link of chromedriver in a string form
 
     def get_Info(self,query):
         self.query=query
