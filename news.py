@@ -4,7 +4,7 @@ pip install requests
 import requests
 from keys import*
 
-api_address="https://newsapi.org/v2/everything?q=tesla&from=2024-11-20&sortBy=publishedAt&apiKey=".key
+api_address=f"https://newsapi.org/v2/everything?q=tesla&from=2024-11-20&sortBy=publishedAt&apiKey={key}"
 
 json_data=requests.get(api_address).json()
 
