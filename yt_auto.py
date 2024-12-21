@@ -4,7 +4,7 @@ from selenium import webdriver
 class music():
     def __init__(self):
         self.query = None
-        self.driver= webdriver.chrome
+        self.driver= webdriver.chrome()
 
     def play(self,query):
         self.query=query
