@@ -113,7 +113,7 @@ def play_sidra():
             audio = listener.listen(source)
             video = listener.recognize_google(audio)
         print("playing {} on youtube".format(video))
-        assist=music()
+        assist=Music()
         assist.play(video)
     elif "news" in instruction:
         news_titles = news()
