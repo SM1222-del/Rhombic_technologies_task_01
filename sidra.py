@@ -32,10 +32,6 @@ def detail():
 def temp():
     pass
 
-
-talk("Temperature in Lahore is" + str(temp())) + "degree celsius" + "and with" + str(detail())
-
-
 # Function to get the input
 def input_instruction():
     try:
@@ -124,6 +120,9 @@ def play_sidra():
         r_fact = randfacts.getfact()
         print(r_fact)
         talk("did you know that" + r_fact)
-
+    elif "Temperature" in instruction:
+        talk("Temperature in Lahore is" + str(temp())) + "degree celsius" + "and with" + str(detail())
+    else:
+        talk("Please repeat again")
 
 play_sidra()
