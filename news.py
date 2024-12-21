@@ -14,7 +14,6 @@ li=[]
 def news():
     print("Yeah sure,I can read news for you.")
     for i in range(3):
-        li.append("number 1"+str(i+1)+","+json_data["articles"][i]["title"]+".")
-
-        return li
+        li.append(f"Number {i + 1}, {json_data['articles'][i]['title']}.")
+    return li
 
